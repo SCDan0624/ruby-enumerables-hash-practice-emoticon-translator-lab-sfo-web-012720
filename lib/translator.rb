@@ -20,6 +20,7 @@ def get_japanese_emoticon(file_path,emoticon)
   result = load_library(file_path)['get_emoticon'][emoticon]
  
   
+  #statement_to_evaluate ? true_results_do_this : else_do_this
  
   result ? result : "Sorry, that emoticon was not found"
  
