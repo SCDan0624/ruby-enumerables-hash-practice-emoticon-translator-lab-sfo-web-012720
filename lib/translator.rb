@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path,emoticon)
  
 
  
- result ? result : "Sorry could not find that emoticon at this time"
+result ? result : "Sorry, that emoticon was not found"
  
 end
 
